@@ -83,7 +83,7 @@ async def get_price(symbol, exchange) -> Price:
 
 async def main():
     if len(sys.argv) < 3:
-        print("Usage: python {} <delta threshold> <exchange id 1> <exchange id 2> ...".format(sys.argv[0]))
+        print("Usage: python {} <exchange id 1> <exchange id 2> ...".format(sys.argv[0]))
         return
     exchanges = []
 
